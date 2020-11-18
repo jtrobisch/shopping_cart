@@ -6,6 +6,7 @@
 	$database = "my_shop_db";
 	$conn = mysqli_connect($host,$user,$password,$database);
 	
+	//<---------------------- New Code ---------------------->
 	session_start();
 	
 	if(!empty($_GET["action"])) {
@@ -31,7 +32,7 @@
 			break;
 		}
 	}
-	
+	//<---------------------- End Of New Code ---------------------->
 ?>
 
 
