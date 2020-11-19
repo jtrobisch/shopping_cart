@@ -46,7 +46,7 @@
 	<link rel="stylesheet" href="mystyle.css">
 </head>
 <body>
-	<!-- NEW HTML-->
+	<!-- NEW HTML/PHP-->
 	<?php 
 		   if(isset($_POST['username']) && isset($_POST['password'])) {		  
 			  $myusername = mysqli_real_escape_string($conn,$_POST['username']);
@@ -73,7 +73,7 @@
 		</form>
 		<div class="error" label="Error Message"><?php if(isset($error)){echo $error;} ?></div>
 	</div>
-	<!-- END OF NEW HTML-->
+	<!-- END OF NEW HTML/PHP-->
 	<h1 >Joe's Emporium of Shopping Delights </h1>
 	<div class="basket">
 		<h3>Shopping Cart</h3>
