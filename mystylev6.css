@@ -1,0 +1,144 @@
+body
+{
+	background-color:#CFE0C3;
+	font-family: Arial;
+	color: #211a1a;
+}
+h1
+{
+	text-align:center;
+}
+.container
+{
+	margin:40px; 
+	background-color:white;
+}
+h3
+{
+	color: #211a1a;
+	border-bottom: 1px solid black;
+}
+.form_container
+{
+	float:left; 
+	background:#ffffff; 
+	margin: 30px 30px 30px 0px; 
+	border: black 1px solid; 
+	padding: 15px 15px 15px 15px;
+}
+.form_container p
+{
+	margin-bottom: 10px;
+}
+.basket
+{
+	margin:40px; 
+	background-color:white;
+}
+.basket a
+{
+	border: #d00000 1px solid;
+	padding: 5px 10px;
+	color: #d00000;
+	text-decoration: none;
+	border-radius: 3px;
+	margin:10px;
+}
+.basket .bkimg
+{
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	border: #E0E0E0 1px solid;
+	padding: 5px;
+	vertical-align: middle;
+	margin-right: 15px;
+}
+.basket .left
+{
+	text-align:left;
+}
+.basket .right
+{
+	text-align:right;
+}
+.basket .centre
+{
+	text-align:center;
+}
+.basket .btnRemoveAction
+{
+	border:none;
+}
+.basket .emptycart
+{
+	text-align: center;
+	clear: both;
+	margin: 38px 0px;
+}
+.login_container
+{
+	text-align:right; 
+	background-color:#87E752;
+	padding:10px;
+}
+.error
+{
+	font-size:11px; 
+	color:#cc0000; 
+	margin-top:10px;
+}
+.signout
+{
+	text-align:right;
+}
+#welcome_container
+{
+	margin: auto;
+	width: 80%; 
+	border: 3px solid green;
+	padding: 10px;
+}
+#welcome_container table
+{
+	background:white;
+}
+#welcome_container .left
+{
+	text-align:left;
+}
+#welcome_container .right
+{
+	text-align:right;
+}
+#welcome_container .centre
+{
+	text-align:center;
+}
+
+#welcome_container img
+{
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	border: #E0E0E0 1px solid;
+	padding: 5px;
+	vertical-align: middle;
+	margin-right: 15px;
+}
+#insert_form
+{
+	margin-left: auto;
+	margin-right:auto;
+	margin-top:10px;
+	width: 80%; 
+	border: 3px solid green;
+	padding: 10px;
+}
+
+
+
+
+
+
+
